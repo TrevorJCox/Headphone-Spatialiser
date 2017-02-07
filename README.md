@@ -1,6 +1,8 @@
-#Spatial Podcast
+#Headphone Spatialiser
 
-This is a Headphone Spatialiser audio plug-in made by Salford University. It is an audio tool designed to allow podcasters to create spatial audio for headphone listening without them needing to understand some of the more complex binaural plug-ins available.
+This is a Headphone Spatialiser VST audio plug-in made by the Acoustics Research Centre at the University of Salford University.
+
+It is an audio tool designed to allow podcasters to create spatial audio for headphone listening without them needing to understand some of the more complex binaural plug-ins available.
 
 Add the plug-in on your track and select which sound type you are wanting to spatialise.
 

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="GkvLaF" name="SpatialPodcast" projectType="audioplug" version="1.0"
+              bundleIdentifier="com.UniversityOfSalford.SpatialPodcast" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="0" buildAU="1" buildAUv3="0" buildRTAS="0"
+              buildAAX="1" pluginName="SpatialPodcast" pluginDesc="SpatialPodcast"
+              pluginManufacturer="UniversityOfSalford" pluginManufacturerCode="salF"
+              pluginCode="Gkvl" pluginChannelConfigs="{1,2}, {2,2}" pluginIsSynth="0"
+              pluginWantsMidiIn="0" pluginProducesMidiOut="0" pluginIsMidiEffectPlugin="0"
+              pluginEditorRequiresKeys="0" pluginAUExportPrefix="SpatialPodcastAU"
+              pluginRTASCategory="" aaxIdentifier="com.UniversityOfSalford.SpatialPodcast"
+              pluginAAXCategory="AAX_ePlugInCategory_SoundField" jucerVersion="4.3.1"
+              companyName="UniversityOfSalford" defines="WDL_CONVO_THREAD REDUCED ANSI_DECLARATORS TRILIBRARY CDT_ONLY">
+  <MAINGROUP id="YVl5h6" name="SpatialPodcast">
+    <GROUP id="{7E1B6CD2-89AA-662E-A920-04D019C17800}" name="Resources">
+      <FILE id="G2Qctl" name="PanAziWidth.png" compile="0" resource="1" file="Resources/PanAziWidth.png"/>
+      <FILE id="VIWr7H" name="Comfortaa-Regular.ttf" compile="0" resource="1"
+            file="Resources/Comfortaa-Regular.ttf"/>
+      <FILE id="rSSl7s" name="Background.png" compile="0" resource="1" file="Resources/Background.png"/>
+      <FILE id="tFU4Ww" name="ir1.wav" compile="0" resource="1" file="Resources/ir1.wav"/>
+      <FILE id="YDab7g" name="koli_summer_site1_4way_mono.wav" compile="0"
+            resource="1" file="Resources/koli_summer_site1_4way_mono.wav"/>
+      <FILE id="GmZ6XN" name="perth_city_hall_balcony_ir_edit.wav" compile="0"
+            resource="1" file="Resources/perth_city_hall_balcony_ir_edit.wav"/>
+      <FILE id="YVJdZu" name="kemar.bin" compile="0" resource="1" file="Resources/kemar.bin"/>
+    </GROUP>
+    <GROUP id="{1A94E260-B50A-E434-4035-7965734E9205}" name="Source">
+      <GROUP id="{99B1D8A9-E174-427A-EB2C-B51CB3C02CF3}" name="CredlandAudio">
+        <FILE id="RjMzmi" name="value_tree_debugger.cpp" compile="1" resource="0"
+              file="Source/value_tree_debugger.cpp"/>
+        <FILE id="uMPL6L" name="value_tree_debugger.h" compile="0" resource="0"
+              file="Source/value_tree_debugger.h"/>
+        <FILE id="A5rJlW" name="nonblocking_call_queue.h" compile="0" resource="0"
+              file="Source/nonblocking_call_queue.h"/>
+      </GROUP>
+      <GROUP id="{06A8233F-74F8-2C02-1577-DF40165EA1AB}" name="DSP">
+        <GROUP id="{F557D09F-8EB5-690C-5B06-EDF4957291DD}" name="R8Brain">
+          <FILE id="eHMtg5" name="CDSPBlockConvolver.h" compile="0" resource="0"
+                file="Source/R8Brain/CDSPBlockConvolver.h"/>
+          <FILE id="GYftC0" name="CDSPFIRFilter.h" compile="0" resource="0" file="Source/R8Brain/CDSPFIRFilter.h"/>
+          <FILE id="dhQUqP" name="CDSPFracInterpolator.h" compile="0" resource="0"
+                file="Source/R8Brain/CDSPFracInterpolator.h"/>
+          <FILE id="q1Hgrk" name="CDSPProcessor.h" compile="0" resource="0" file="Source/R8Brain/CDSPProcessor.h"/>
+          <FILE id="mIGIqk" name="CDSPRealFFT.h" compile="0" resource="0" file="Source/R8Brain/CDSPRealFFT.h"/>
+          <FILE id="fFoDso" name="CDSPResampler.h" compile="0" resource="0" file="Source/R8Brain/CDSPResampler.h"/>
+          <FILE id="jgg04G" name="CDSPSincFilterGen.h" compile="0" resource="0"
+                file="Source/R8Brain/CDSPSincFilterGen.h"/>
+          <FILE id="uTq1ui" name="fft4g.h" compile="0" resource="0" file="Source/R8Brain/fft4g.h"/>
+          <FILE id="DY3yBE" name="r8bbase.cpp" compile="1" resource="0" file="Source/R8Brain/r8bbase.cpp"/>
+          <FILE id="O3FyKT" name="r8bbase.h" compile="0" resource="0" file="Source/R8Brain/r8bbase.h"/>
+          <FILE id="MRjMXO" name="r8bconf.h" compile="0" resource="0" file="Source/R8Brain/r8bconf.h"/>
+          <FILE id="PLSllB" name="r8butil.h" compile="0" resource="0" file="Source/R8Brain/r8butil.h"/>
+        </GROUP>
+        <GROUP id="{E01A54CD-C87D-82E6-98DF-89D4860993F5}" name="WDL">
+          <FILE id="wSlW4Y" name="convoengine.cpp" compile="1" resource="0" file="Source/WDL/WDL/convoengine.cpp"/>
+          <FILE id="B8Qb7R" name="convoengine.h" compile="0" resource="0" file="Source/WDL/WDL/convoengine.h"/>
+          <FILE id="RfIkt8" name="denormal.h" compile="0" resource="0" file="Source/WDL/WDL/denormal.h"/>
+          <FILE id="PPW5Zw" name="fastqueue.h" compile="0" resource="0" file="Source/WDL/WDL/fastqueue.h"/>
+          <FILE id="UL3Qlw" name="fft.c" compile="1" resource="0" file="Source/WDL/WDL/fft.c"/>
+          <FILE id="k6BA1u" name="fft.h" compile="0" resource="0" file="Source/WDL/WDL/fft.h"/>
+          <FILE id="FpwXXE" name="heapbuf.h" compile="0" resource="0" file="Source/WDL/WDL/heapbuf.h"/>
+          <FILE id="NUcoII" name="ptrlist.h" compile="0" resource="0" file="Source/WDL/WDL/ptrlist.h"/>
+          <FILE id="v5c8Sw" name="queue.h" compile="0" resource="0" file="Source/WDL/WDL/queue.h"/>
+          <FILE id="zRQAF4" name="wdltypes.h" compile="0" resource="0" file="Source/WDL/WDL/wdltypes.h"/>
+        </GROUP>
+        <GROUP id="{15DEC49C-4F0F-2063-8C31-F0C864179BCE}" name="BinauralPanner">
+          <GROUP id="{CD30B4D8-7ED0-3888-4BAA-43F226F1F9AA}" name="delaunay">
+            <FILE id="G4VDXY" name="delaunay.cpp" compile="1" resource="0" file="Source/BinauralPanner/delaunay/delaunay.cpp"/>
+            <FILE id="Xc5QJ8" name="delaunay.h" compile="0" resource="0" file="Source/BinauralPanner/delaunay/delaunay.h"/>
+            <FILE id="ogYNh3" name="edge.h" compile="0" resource="0" file="Source/BinauralPanner/delaunay/edge.h"/>
+            <FILE id="ikqG7Q" name="triangle.cpp" compile="1" resource="0" file="Source/BinauralPanner/delaunay/triangle.cpp"/>
+            <FILE id="m0Gy0K" name="triangle.h" compile="0" resource="0" file="Source/BinauralPanner/delaunay/triangle.h"/>
+            <FILE id="fXUJ6x" name="vector2.h" compile="0" resource="0" file="Source/BinauralPanner/delaunay/vector2.h"/>
+          </GROUP>
+          <GROUP id="{37CE4E79-163B-362A-F64A-7181A6CDBF57}" name="triangle++">
+            <FILE id="rrYpEQ" name="assert.hpp" compile="0" resource="0" file="Source/BinauralPanner/triangle++/include/assert.hpp"/>
+            <FILE id="JGRIEK" name="del_interface.hpp" compile="0" resource="0"
+                  file="Source/BinauralPanner/triangle++/include/del_interface.hpp"/>
+            <FILE id="gyDDx6" name="dpoint.hpp" compile="0" resource="0" file="Source/BinauralPanner/triangle++/include/dpoint.hpp"/>
+            <FILE id="yZvdiK" name="triangle_impl.hpp" compile="0" resource="0"
+                  file="Source/BinauralPanner/triangle++/include/triangle_impl.hpp"/>
+            <FILE id="lhBi2D" name="triangle.h" compile="0" resource="0" file="Source/BinauralPanner/triangle++/include/triangle.h"/>
+            <FILE id="yvuvv6" name="assert.cpp" compile="1" resource="0" file="Source/BinauralPanner/triangle++/src/assert.cpp"/>
+            <FILE id="cYf5Tt" name="del_impl.cpp" compile="1" resource="0" file="Source/BinauralPanner/triangle++/src/del_impl.cpp"/>
+          </GROUP>
+          <FILE id="ugx6YP" name="BinauralPanner.cpp" compile="1" resource="0"
+                file="Source/BinauralPanner/BinauralPanner.cpp"/>
+          <FILE id="a5htyF" name="BinauralPanner.h" compile="0" resource="0"
+                file="Source/BinauralPanner/BinauralPanner.h"/>
+          <FILE id="DrEo0b" name="Crossover.h" compile="0" resource="0" file="Source/BinauralPanner/Crossover.h"/>
+          <FILE id="BEuItK" name="HRIRFilter.cpp" compile="1" resource="0" file="Source/BinauralPanner/HRIRFilter.cpp"/>
+          <FILE id="qyMN50" name="HRIRFilter.h" compile="0" resource="0" file="Source/BinauralPanner/HRIRFilter.h"/>
+          <FILE id="HBNYIg" name="BinauralPannerDisplay.cpp" compile="1" resource="0"
+                file="Source/BinauralPanner/BinauralPannerDisplay.cpp"/>
+          <FILE id="Krsnlk" name="BinauralPannerDisplay.h" compile="0" resource="0"
+                file="Source/BinauralPanner/BinauralPannerDisplay.h"/>
+          <FILE id="gWlFU6" name="StereoBinauralPanner.h" compile="0" resource="0"
+                file="Source/BinauralPanner/StereoBinauralPanner.h"/>
+          <FILE id="fn24DP" name="HRTFContainer.cpp" compile="1" resource="0"
+                file="Source/BinauralPanner/HRTFContainer.cpp"/>
+          <FILE id="lGAQ4X" name="HRTFContainer.h" compile="0" resource="0" file="Source/BinauralPanner/HRTFContainer.h"/>
+          <FILE id="h6jHjg" name="OouraFFT.cpp" compile="1" resource="0" file="Source/BinauralPanner/OouraFFT.cpp"/>
+          <FILE id="iBmeMO" name="OouraFFT.h" compile="0" resource="0" file="Source/BinauralPanner/OouraFFT.h"/>
+          <FILE id="GDX06k" name="Util.h" compile="0" resource="0" file="Source/BinauralPanner/Util.h"/>
+        </GROUP>
+        <FILE id="oKTsCf" name="TrapezoidalSVF.cpp" compile="1" resource="0"
+              file="Source/TrapezoidalSVF.cpp"/>
+        <FILE id="YFcTFk" name="TrapezoidalSVF.h" compile="0" resource="0"
+              file="Source/TrapezoidalSVF.h"/>
+        <FILE id="p5oBgj" name="ParameterSmoother.h" compile="0" resource="0"
+              file="Source/ParameterSmoother.h"/>
+        <FILE id="S71jgu" name="Panner.h" compile="0" resource="0" file="Source/Panner.h"/>
+        <FILE id="FKgUWF" name="ConvolutionReverb.cpp" compile="1" resource="0"
+              file="Source/ConvolutionReverb.cpp"/>
+        <FILE id="HuLRV0" name="ConvolutionReverb.h" compile="0" resource="0"
+              file="Source/ConvolutionReverb.h"/>
+      </GROUP>
+      <FILE id="ZaEvA4" name="BreakPointFunction.cpp" compile="1" resource="0"
+            file="Source/BreakPointFunction.cpp"/>
+      <FILE id="ZdXKHj" name="BreakPointFunction.h" compile="0" resource="0"
+            file="Source/BreakPointFunction.h"/>
+      <FILE id="Ylp4la" name="MultiBPFComponent.h" compile="0" resource="0"
+            file="Source/MultiBPFComponent.h"/>
+      <FILE id="AlJ90j" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="nuFlJs" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="fkOMk5" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="pDRHGx" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="jyRMUd" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="RbBIw7" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="ehuwCO" name="LookAndFeel.h" compile="0" resource="0" file="Source/LookAndFeel.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" vstFolder="" aaxFolder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="SpatialPodcast"
+                       headerPath="../../Source/WDL&#10;../../Source/BinauralPanner/triangle++/include"
+                       libraryPath="../../Source/WDL" cppLanguageStandard="c++11" cppLibType="libc++"
+                       osxSDK="default" osxCompatibility="10.7 SDK"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="SpatialPodcast"
+                       headerPath="../../Source/WDL&#10;../../Source/BinauralPanner/triangle++/include"
+                       libraryPath="../../Source/WDL" cppLanguageStandard="c++11" cppLibType="libc++"
+                       osxArchitecture="64BitUniversal" osxSDK="default" osxCompatibility="10.7 SDK"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2015 targetFolder="Builds/VisualStudio2015" vstFolder="C:\Users\Oliver Larkin\SDKs\VST3 SDK"
+            extraDefs="NO_TIMER" aaxFolder="C:\SDKs\AAX_SDK" toolset="v140_xp">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="SpatialPodcast" headerPath="../../Source/WDL&#10;../../Source/BinauralPanner/triangle++/include"
+                       libraryPath="../../Source/WDL" useRuntimeLibDLL="0"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="SpatialPodcast" headerPath="../../Source/WDL&#10;../../Source/BinauralPanner/triangle++/include"
+                       libraryPath="../../Source/WDL" useRuntimeLibDLL="0"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="SpatialPodcast" headerPath="../../Source/WDL&#10;../../Source/BinauralPanner/triangle++/include"
+                       libraryPath="../../Source/WDL" useRuntimeLibDLL="0"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+  <LIVE_SETTINGS>
+    <OSX headerPath="../../Source/WDL&#10;../../Source/BinauralPanner/triangle++/include"/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>

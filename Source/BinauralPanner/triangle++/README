@@ -1,0 +1,39 @@
+
+===========================================Basic Info.
+Release : 0.01
+
+To compile: make
+To link   : use lib\libdel.a
+To test   : use bin\test inputFile.dat
+
+Documentation : doc\html\index.html
+Web Version   : http://www.compgeom.com/~piyush/scripts/triangle
+
+A sample input file is provided in data\input.dat
+
+If you extend this class and add more functionality, please
+send me a copy. If you use this package in any way, please 
+let me know.
+
+Use at your own risk.  
+
+===========================================Copyright notice.
+
+Triangle++ is a C++ wrapper around Jonathan Richard Shewchuk's
+Triangle package which was written in C.
+Copyright (C) 2006  Piyush Kumar
+Contact Info of Author: http://compgeom.com/~piyush
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.

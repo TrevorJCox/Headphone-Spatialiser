@@ -1,0 +1,116 @@
+License
+
+Permission is granted to use this software under the terms of the GPL v2 (or any later version)   
+Details of the license can be found at: www.gnu.org/licenses 
+
+Spatial Podcast has been written using the following third-party libraries:
+
+--------------------------------------------
+
+JUCE (Jules' Utility Class Extensions)
+
+Copyright (c) 2015 - ROLI Ltd. 
+Permission is granted to use this software under the terms of either:  
+a) the GPL v2 (or any later version)  
+b) the Affero GPL v3  
+Details of these licenses can be found at: www.gnu.org/licenses  
+JUCE is distributed in the hope that it will be useful, but WITHOUT ANY  
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR  
+A PARTICULAR PURPOSE.  See the GNU General Public License for more details.  
+To release a closed-source product which uses JUCE, commercial licenses are
+available: visit www.juce.com for more information.
+
+--------------------------------------------
+
+Cockos WDL
+
+Copyright (C) 2005 and later Cockos Incorporated
+
+Portions copyright other contributors, see each source file for more information
+
+This software is provided 'as-is', without any express or implied warranty.  In no event will the authors be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+1. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+1. This notice may not be removed or altered from any source distribution.
+
+WDL includes the following 3rd party libraries (which are all similarly licensed):
+
+* JNetLib http://www.nullsoft.com/free/jnetlib
+* LibPNG http://www.libpng.org/pub/png
+* GifLib http://sourceforge.net/projects/libungif
+* JPEGLib http://www.ijg.org
+* zlib http://www.zlib.net
+
+--------------------------------------------
+
+CIPIC HRTF Database http://interface.cipic.ucdavis.edu/sound/hrtf.html
+
+Copyright (c) 2001 The Regents of the University of California. All Rights Reserved
+
+--------------------------------------------
+
+binaural-vst https://github.com/tmwoz/binaural-vst
+
+Permission is granted to use this software under the terms of either:  
+a) the GPL v2 (or any later version)  
+b) the Affero GPL v3  
+Details of these licenses can be found at: www.gnu.org/licenses  
+
+--------------------------------------------
+
+R8 brain https://github.com/avaneev/r8brain-free-src
+
+The MIT License (MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------
+
+JUCE toys https://github.com/jcredland/juce-toys
+
+The MIT License (MIT)
+
+Copyright (c) 2014 bazrush
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------
+
+VST is a trademark of Steinberg Media Technologies GmbH.  
+Audio Unit is a trademark of Apple, Inc.  
+AAX is a trademark of Avid, Inc.

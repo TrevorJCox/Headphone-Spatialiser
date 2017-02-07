@@ -1,0 +1,21 @@
+
+LIB = -lm
+
+all: lib main.o del_impl.o 
+	$(CC) $(OFLAGS) -I./include -L./lib ./bin/main.o -lm -ldel -o ./bin/test
+	rm ./bin/*.o
+
+del_impl.o: ./include/del_interface.hpp ./src/del_impl.cpp ./include/assert.hpp ./include/dpoint.hpp
+	$(CC) $(TFLAGS) \
+	$(OFLAGS) -I./include -O ./src/del_impl.cpp -c -o ./bin/del_impl.o
+
+assert.o: ./include/assert.hpp ./src/assert.cpp
+	$(CC) $(OFLAGS) -I./include -c  ./src/assert.cpp -o ./bin/assert.o
+
+main.o:	./include/del_interface.hpp ./src/main.cpp ./src/assert.cpp
+	$(CC) $(OFLAGS) -I./include -c  ./src/main.cpp -o ./bin/main.o	
+
+lib: del_impl.o assert.o
+	ar rcs ./lib/libdel.a ./bin/del_impl.o ./bin/assert.o
+
+

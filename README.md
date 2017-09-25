@@ -9,3 +9,5 @@ Add the plug-in on your track and select which sound type you are wanting to spa
 The plug in uses a combination of binaural and stereo techniques to generate a spatial sound mix optimised for headphone listening.
 
 If you have any questions or comments please email: t.j.cox AT salford.ac.uk
+
+More on this: https://acousticengineering.wordpress.com/headphone-spatialiser-for-podcasts/
